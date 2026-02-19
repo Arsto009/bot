@@ -2,9 +2,10 @@ import importlib
 
 from telegram.ext import Application
 
-from telegram import BotCommand
+from telegram import BotCommand, BotCommandScopeDefault, BotCommandScopeChat
 
 from settings import load_config
+
 
 
 config = load_config()
@@ -12,6 +13,7 @@ config = load_config()
 BOT_TOKEN = config.get("BOT_TOKEN")
 
 ADMIN_ID = config.get("ADMIN_ID")
+
 
 
 
@@ -57,22 +59,55 @@ def load_commands(app):
 
 
 
+
 async def setup_commands(app):
 
-    # ⭐ امسح كل القوائم القديمة
-    await app.bot.delete_my_commands()
 
-    # ⭐ قائمة موحدة للجميع
-    commands = [
+
+    public_commands = [
+
         BotCommand("start", "تشغيل البوت"),
+
         BotCommand("help", "مساعدة"),
+
     ]
 
-    await app.bot.set_my_commands(commands)
+
+
+    admin_commands = [
+        
+        BotCommand("start", "تشغيل البوت"),
+        
+        BotCommand("add", "إضافة إعلان"),
+
+    ]
+
+
+
+    await app.bot.set_my_commands(
+
+        public_commands,
+
+        scope=BotCommandScopeDefault()
+
+    )
+
+
+
+    await app.bot.set_my_commands(
+
+        admin_commands,
+
+        scope=BotCommandScopeChat(chat_id=ADMIN_ID)
+
+    )
+
 
 
 
 def main():
+
+
 
     if not BOT_TOKEN:
 
@@ -80,17 +115,28 @@ def main():
 
         return
 
+
+
     print("🚀 Bot Starting...")
+
+
 
     app = Application.builder().token(BOT_TOKEN).build()
 
+
+
     load_commands(app)
 
+
+
     app.post_init = setup_commands
+
+
 
     print("✅ Bot is running...")
 
     app.run_polling()
+
 
 
 

@@ -2,7 +2,8 @@ import importlib
 
 from telegram.ext import Application
 
-from telegram import BotCommand, BotCommandScopeDefault, BotCommandScopeChat
+from telegram import BotCommand, BotCommandScopeDefault, BotCommandScopeChatAdministrators
+
 
 from settings import load_config
 
@@ -84,9 +85,7 @@ async def setup_commands(app):
 
     admin_commands = [
         
-        BotCommand("start", "تشغيل البوت"),
-        
-        BotCommand("add", "إضافة إعلان"),
+        BotCommand("start", "تشغيل البوت")
 
     ]
 
@@ -94,11 +93,12 @@ async def setup_commands(app):
 
     await app.bot.set_my_commands(
 
-        public_commands,
+        admin_commands,
 
-        scope=BotCommandScopeDefault()
+        scope=BotCommandScopeChatAdministrators(chat_id=ADMIN_ID)
 
     )
+
 
 
 

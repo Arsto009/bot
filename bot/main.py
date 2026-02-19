@@ -17,29 +17,36 @@ ADMIN_ID = config.get("ADMIN_ID")
 
 
 
+
 def load_commands(app):
 
     order = [
 
-        "devpanel",
+    "devpanel",
 
-        "admin",
+    "admin",
 
-        "lists",
+    "lists",
 
-        "menu_extra",   # 🔥 لازم قبل menu
+    "menu_extra",   # 🔥 لازم قبل menu
 
-        "menu",
+    "menu",
 
-        "start",
+    "start",
 
-        "help",
+    "help",
 
-        "wizard",
+    "wizard",
 
-        "search"        # 🔥 search يكون آخر واحد دائماً
+    "search"        # 🔥 search يكون آخر واحد دائماً
 
-    ]
+]
+
+
+
+
+
+
 
     for name in order:
 
@@ -60,32 +67,56 @@ def load_commands(app):
 
 
 
+
 async def setup_commands(app):
 
-    # مسح كل الأوامر
-    await app.bot.delete_my_commands()
+
 
     public_commands = [
+
         BotCommand("start", "تشغيل البوت"),
+
         BotCommand("help", "مساعدة"),
+
     ]
+
+
 
     admin_commands = [
-        BotCommand("start", "تشغيل البوت"),
+
         BotCommand("add", "إضافة إعلان"),
+
+        BotCommand("add_list", "إضافة لستة"),
+
+        BotCommand("delete_list", "حذف لستة"),
+
+        BotCommand("dev", "لوحة المطور"),
+
+        BotCommand("add_listing", "Wizard إضافة إعلان"),
+
     ]
 
-    # أوامر الضيوف
+
+
     await app.bot.set_my_commands(
+
         public_commands,
+
         scope=BotCommandScopeDefault()
+
     )
 
-    # أوامر الأدمن
+
+
     await app.bot.set_my_commands(
+
         admin_commands,
+
         scope=BotCommandScopeChat(chat_id=ADMIN_ID)
+
     )
+
+
 
 
 
@@ -124,8 +155,7 @@ def main():
 
 
 
+
 if __name__ == "__main__":
 
     main()
-
-

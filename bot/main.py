@@ -34,16 +34,21 @@ def load_commands(app):
 
 async def setup_commands(app):
 
-    # 👤 أوامر الضيف فقط
+    # 👤 أوامر الضيف
     public_commands = [
         BotCommand("start", "تشغيل البوت"),
         BotCommand("help", "مساعدة"),
     ]
 
+    # 🔥 مسح أي أوامر قديمة
+    await app.bot.delete_my_commands()
+
+    # 👤 تعيين أوامر الضيف فقط
     await app.bot.set_my_commands(
         public_commands,
         scope=BotCommandScopeDefault()
     )
+
 
 
 def main():
@@ -66,3 +71,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

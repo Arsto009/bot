@@ -62,6 +62,11 @@ def load_commands(app):
 
 async def setup_commands(app):
 
+    # 🔥 مسح كل أوامر Telegram المخزونة
+    await app.bot.delete_my_commands()
+
+    # 🔥 مسح أوامر الأدمن المحدد
+    await app.bot.delete_my_commands(scope=BotCommandScopeChat(chat_id=ADMIN_ID))
 
 
     public_commands = [
@@ -143,3 +148,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+

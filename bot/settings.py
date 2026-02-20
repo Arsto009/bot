@@ -16,7 +16,7 @@ def load_config():
 
         default_config = {
 
-            "ADMIN_ID": "[]",
+            "ADMIN_ID": [],
 
             "BOT_TOKEN": "",
 
@@ -66,6 +66,7 @@ def is_admin(user_id):
 
 
     )
+
 
 
 

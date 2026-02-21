@@ -28,4 +28,5 @@ async def get_data_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def register(app):
     app.add_handler(CommandHandler("getdata", get_data_command))
-    app.add_handler(CommandHandler("جلب_داتا", get_data_command))
+
+    app.add_handler(CommandHandler("data1", get_data_command))

@@ -1,0 +1,153 @@
+{
+  "info": {
+    "business_name": "عقارات أبو الحسن",
+    "phones": [
+      "+96407754404477",
+      "+96407764404477",
+      "+96407735544404"
+    ],
+    "address": "البصرة - الجزائر -خلف مرطبات سنبلة"
+  },
+  "categories": {
+    "rent": {
+      "title": "الإيجارات",
+      "sub": {
+        "residential": {
+          "title": "سكني",
+          "sub": {
+            "قفلقفل": {
+              "title": "قف455",
+              "items": []
+            },
+            "45556": {
+              "title": "بقب",
+              "items": []
+            },
+            "فلف": {
+              "title": "فلف",
+              "items": []
+            },
+            "فلفل": {
+              "title": "فلفل",
+              "items": []
+            },
+            "فلفللف": {
+              "title": "فلفللف",
+              "items": []
+            },
+            "فلفلفل": {
+              "title": "فلفلفل",
+              "items": []
+            },
+            "قبقبق": {
+              "title": "قبقبق",
+              "items": []
+            },
+            "لاالاا": {
+              "title": "لاالاا",
+              "items": []
+            }
+          },
+          "items": [
+            {
+              "text": "عقارات ابوالحسن \n----------------\nشقة سكنية للايجار \nفي منطقة حي الخضراء\nالشقة طابق اول \nضمن بناية حديثة\nبمساحة ١٢٥ م \nتشطيب حديث\nتحتوي على \nغرفتين منام \nاستقبال \nمطبخ \nموزع\nمشتملات صحية\nالسعر / 800 الف \nللعوائل السكنية\n-----------------------\nبالامكان الاستفسار عن التفاصيل اكثر\nمن خلال الارقام الاتية :-\n07754404477\n07764404477\nاو زيارة مقر العمل الكائن في \nالبصرة - الجزائر - خلف مرطبات سنبلة",
+              "photos": [
+                "AgACAgIAAxkBAAIFdWl87iI_hfJ92xU8E3Qo2CFaYe7UAAK1FGsbmCfhSzUK1TjInJb5AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFdml87iIVNarf368K9pKfrbsjm0zbAAK2FGsbmCfhS8Ml8OSmvaXdAQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFd2l87iK3AAFwUDY78cVenk1EUPY1QAACtxRrG5gn4UvWK9AkcSonQAEAAwIAA3kAAzgE",
+                "AgACAgIAAxkBAAIFeGl87iIlFpTP8QW7kX2CeubPmL3KAAK6FGsbmCfhS5VlVi0-tYe-AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFeWl87iJKdVbJArIX9kRFeJhkMRozAAK4FGsbmCfhS5-KQ7hrCkD0AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFeml87iIAAT6keEDk3AItdZ_T2n3LFgACuRRrG5gn4UtOo4YUE4wh6wEAAwIAA3kAAzgE",
+                "AgACAgIAAxkBAAIFe2l87iIUVsLjZeGzpJpJda9KWMh2AAK7FGsbmCfhS76rb_WC8zNcAQADAgADeQADOAQ"
+              ],
+              "videos": [
+                "BAACAgIAAxkBAAIFq2l88Ul91BrCJOsNa07z2mTM1x2XAAKmlgACmCfhS_mzFccZuvLoOAQ"
+              ]
+            },
+            {
+              "text": "عقارات ابوالحسن \n----------------\nشقة سكنية للايجار \nفي منطقة حي الخضراء\nالشقة طابق اول \nضمن بناية حديثة\nبمساحة ١٢٥ م \nتشطيب حديث\nتحتوي على \nغرفتين منام \nاستقبال \nمطبخ \nموزع\nمشتملات صحية\nالسعر / 800 الف \nللعوائل السكنية\n-----------------------\nبالامكان الاستفسار عن التفاصيل اكثر\nمن خلال الارقام الاتية :-\n07754404477\n07764404477\nاو زيارة مقر العمل الكائن في \nالبصرة - الجزائر - خلف مرطبات سنبلة",
+              "photos": [
+                "AgACAgIAAxkBAAIFdWl87iI_hfJ92xU8E3Qo2CFaYe7UAAK1FGsbmCfhSzUK1TjInJb5AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFdml87iIVNarf368K9pKfrbsjm0zbAAK2FGsbmCfhS8Ml8OSmvaXdAQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFd2l87iK3AAFwUDY78cVenk1EUPY1QAACtxRrG5gn4UvWK9AkcSonQAEAAwIAA3kAAzgE",
+                "AgACAgIAAxkBAAIFeGl87iIlFpTP8QW7kX2CeubPmL3KAAK6FGsbmCfhS5VlVi0-tYe-AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFeWl87iJKdVbJArIX9kRFeJhkMRozAAK4FGsbmCfhS5-KQ7hrCkD0AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFeml87iIAAT6keEDk3AItdZ_T2n3LFgACuRRrG5gn4UtOo4YUE4wh6wEAAwIAA3kAAzgE",
+                "AgACAgIAAxkBAAIFe2l87iIUVsLjZeGzpJpJda9KWMh2AAK7FGsbmCfhS76rb_WC8zNcAQADAgADeQADOAQ"
+              ],
+              "videos": [
+                "BAACAgIAAxkBAAIF2Gl89Lw4r9jhNmPiCTasVqLUGr88AAINgwACmCfpS3p85M356e-6OAQ"
+              ]
+            },
+            {
+              "text": "عقارات ابوالحسن \n----------------\nشقة سكنية للايجار \nفي منطقة حي الخضراء\nالشقة طابق اول \nضمن بناية حديثة\nبمساحة ١٢٥ م \nتشطيب حديث\nتحتوي على \nغرفتين منام \nاستقبال \nمطبخ \nموزع\nمشتملات صحية\nالسعر / 800 الف \nللعوائل السكنية\n-----------------------\nبالامكان الاستفسار عن التفاصيل اكثر\nمن خلال الارقام الاتية :-\n07754404477\n07764404477\nاو زيارة مقر العمل الكائن في \nالبصرة - الجزائر - خلف مرطبات سنبلة",
+              "photos": [
+                "AgACAgIAAxkBAAIFdWl87iI_hfJ92xU8E3Qo2CFaYe7UAAK1FGsbmCfhSzUK1TjInJb5AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFdml87iIVNarf368K9pKfrbsjm0zbAAK2FGsbmCfhS8Ml8OSmvaXdAQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFd2l87iK3AAFwUDY78cVenk1EUPY1QAACtxRrG5gn4UvWK9AkcSonQAEAAwIAA3kAAzgE",
+                "AgACAgIAAxkBAAIFeGl87iIlFpTP8QW7kX2CeubPmL3KAAK6FGsbmCfhS5VlVi0-tYe-AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFeWl87iJKdVbJArIX9kRFeJhkMRozAAK4FGsbmCfhS5-KQ7hrCkD0AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFeml87iIAAT6keEDk3AItdZ_T2n3LFgACuRRrG5gn4UtOo4YUE4wh6wEAAwIAA3kAAzgE",
+                "AgACAgIAAxkBAAIFe2l87iIUVsLjZeGzpJpJda9KWMh2AAK7FGsbmCfhS76rb_WC8zNcAQADAgADeQADOAQ"
+              ],
+              "videos": [
+                "BAACAgIAAxkBAAIF-ml89-k5SrB2aPcoWi__MfN9XjrwAAJJgwACmCfpS1WcgPU8FS8tOAQ"
+              ],
+              "status": "free"
+            },
+            {
+              "text": "عقارات ابوالحسن \n----------------\nشقة سكنية للايجار \nفي منطقة حي الخضراء\nالشقة طابق اول \nضمن بناية حديثة\nبمساحة ١٢٥ م \nتشطيب حديث\nتحتوي على \nغرفتين منام \nاستقبال \nمطبخ \nموزع\nمشتملات صحية\nالسعر / 800 الف \nللعوائل السكنية\n-----------------------\nبالامكان الاستفسار عن التفاصيل اكثر\nمن خلال الارقام الاتية :-\n07754404477\n07764404477\nاو زيارة مقر العمل الكائن في \nالبصرة - الجزائر - خلف مرطبات سنبلة",
+              "photos": [
+                "AgACAgIAAxkBAAIFdWl87iI_hfJ92xU8E3Qo2CFaYe7UAAK1FGsbmCfhSzUK1TjInJb5AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFdml87iIVNarf368K9pKfrbsjm0zbAAK2FGsbmCfhS8Ml8OSmvaXdAQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFd2l87iK3AAFwUDY78cVenk1EUPY1QAACtxRrG5gn4UvWK9AkcSonQAEAAwIAA3kAAzgE",
+                "AgACAgIAAxkBAAIFeGl87iIlFpTP8QW7kX2CeubPmL3KAAK6FGsbmCfhS5VlVi0-tYe-AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFeWl87iJKdVbJArIX9kRFeJhkMRozAAK4FGsbmCfhS5-KQ7hrCkD0AQADAgADeQADOAQ",
+                "AgACAgIAAxkBAAIFeml87iIAAT6keEDk3AItdZ_T2n3LFgACuRRrG5gn4UtOo4YUE4wh6wEAAwIAA3kAAzgE",
+                "AgACAgIAAxkBAAIFe2l87iIUVsLjZeGzpJpJda9KWMh2AAK7FGsbmCfhS76rb_WC8zNcAQADAgADeQADOAQ"
+              ],
+              "videos": [
+                "BAACAgIAAxkBAAIGEGl8-ICmQKXgNL7cTn_n4-IO-hq9AAJPgwACmCfpS0UL-lS_naTdOAQ"
+              ]
+            }
+          ]
+        },
+        "commercial": {
+          "title": "تجاري",
+          "sub": {
+            "shops": {
+              "title": "محلات",
+              "items": []
+            },
+            "offices": {
+              "title": "مكاتب",
+              "items": []
+            }
+          }
+        }
+      }
+    },
+    "sale": {
+      "title": "البيع",
+      "sub": {
+        "available": {
+          "title": "لم يتم البيع",
+          "items": []
+        },
+        "sold": {
+          "title": "تم البيع",
+          "items": []
+        }
+      }
+    },
+    "services": {
+      "title": "الخدمات",
+      "sub": {
+        "general": {
+          "title": "خدمات عامة",
+          "items": []
+        }
+      }
+    }
+  }
+}

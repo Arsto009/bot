@@ -1,0 +1,46 @@
+{
+  "ADMIN_ID": 6977560296,
+  "BOT_TOKEN": "8276159609:AAH2nvNVRr5DOHbIbocMRD12eNu4pV3p-14",
+  "BOT_PASSWORD": "ارستو",
+  "ADMINS": [],
+  "BOT_USERNAME": "abo_alhassanbot",
+  "PUBLIC_COMMANDS": [
+    [
+      "start",
+      "تشغيل البوت"
+    ],
+    [
+      "help",
+      "مساعدة"
+    ]
+  ],
+  "ADMIN_COMMANDS": [
+    [
+      "start",
+      "تشغيل البوت"
+    ],
+    [
+      "data_listings",
+      "ملفات الداتا"
+    ],
+    [
+      "report",
+      "تقرير Word"
+    ],
+    [
+      "dashboard",
+      "لوحة الإحصائيات"
+    ],
+    [
+      "open_comments_all",
+      "فتح التعليقات للكل"
+    ],
+    [
+      "close_comments_all",
+      "غلق التعليقات للكل"
+    ]
+  ],
+  "CHANNEL_ID": "-1003761650454",
+  "CHANNEL_SYNC_ENABLED": true,
+  "COMMENTS_GLOBALLY_ENABLED": true
+}
